@@ -12,6 +12,7 @@
   */
   
   require './libs/phpmailer/PHPMailerAutoload.php';
+  include '/tmp/php_conf.php';
   
   //gives: "/abc/test.mp3" => test
   function onlyFileName($file) {
@@ -234,6 +235,7 @@
   //e.g. 1) sendEmail("bkravi.os@gmail.com", "SUB", "<b>Body</b>");
   //e.g. 2) sendEmail("bkravi.os@gmail.com", "SUB", "<b>Body</b>", array("$rootdir/000-Ravi-DontDelete/test.pdf"));
   function sendEmail($to_array, $subject = "A Test Subject", $html_body = "<b>A Test Body...</b>", $file_attachments = array()) {
+    global $owner_Con, $pass_Con;
     $messages_array[] = "Start sending E-mail";
     $mail = new PHPMailer;
     $mail->isSMTP();
@@ -243,9 +245,9 @@
     $mail->Port = 587;
     $mail->SMTPAuth = true;
     $mail->SMTPSecure = 'tls';
-    $owner = 'bkravi.os.mirror@gmail.com';
+    $owner = $owner_Con;
     $mail->Username = $owner;
-    $mail->Password = 'bkravi$os$mirror';
+    $mail->Password = $pass_Con;
     $mail->setFrom($owner, 'BK Ravi Mirror');
     $mail->addReplyTo($owner, 'BK Ravi Mirror');
     //to-do: Can include only if a valid e-mail address
