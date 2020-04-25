@@ -1,0 +1,29 @@
+#STARTED Fri Apr 24 22:36:56 IST 2020
+Running Youtube command: youtube-dl -x -k --audio-format mp3 --audio-quality 32K -f 18 https://www.youtube.com/watch?v=q6NrYWJ7_I8 --output /var/www/vhosts/babamurli.com/BABAMURLI/000-Ravi-DontDelete/udwnlds/Apr 24 - 13. Become the most a.mp4 --force-ipv4 --newline
+[youtube] q6NrYWJ7_I8: Downloading webpage
+[download] Destination: /var/www/vhosts/babamurli.com/BABAMURLI/000-Ravi-DontDelete/udwnlds/Apr 24 - 13. Become the most a.mp4
+[download]   0.0% of 37.69MiB at Unknown speed ETA Unknown ETA
+[download]   0.0% of 37.69MiB at Unknown speed ETA Unknown ETA
+[download]   0.0% of 37.69MiB at Unknown speed ETA Unknown ETA
+[download]   0.0% of 37.69MiB at 11.28MiB/s ETA 00:03
+[download]   0.1% of 37.69MiB at  4.17MiB/s ETA 00:09
+[download]   0.2% of 37.69MiB at  7.36MiB/s ETA 00:05
+[download]   0.3% of 37.69MiB at  7.79MiB/s ETA 00:04
+[download]   0.7% of 37.69MiB at  6.07MiB/s ETA 00:06
+[download]   1.3% of 37.69MiB at  4.95MiB/s ETA 00:07
+[download]   2.7% of 37.69MiB at  6.38MiB/s ETA 00:05
+[download]   5.3% of 37.69MiB at  7.43MiB/s ETA 00:04
+[download]  10.6% of 37.69MiB at  7.21MiB/s ETA 00:04
+[download]  21.2% of 37.69MiB at  7.55MiB/s ETA 00:03
+[download]  31.8% of 37.69MiB at  8.09MiB/s ETA 00:03
+[download]  42.4% of 37.69MiB at  8.15MiB/s ETA 00:02
+[download]  53.1% of 37.69MiB at  8.03MiB/s ETA 00:02
+[download]  63.7% of 37.69MiB at  7.99MiB/s ETA 00:01
+[download]  74.3% of 37.69MiB at  7.97MiB/s ETA 00:01
+[download]  84.9% of 37.69MiB at  7.99MiB/s ETA 00:00
+[download]  95.5% of 37.69MiB at  8.03MiB/s ETA 00:00
+[download] 100.0% of 37.69MiB at  8.06MiB/s ETA 00:00
+[download] 100% of 37.69MiB in 00:04
+[ffmpeg] Destination: /var/www/vhosts/babamurli.com/BABAMURLI/000-Ravi-DontDelete/udwnlds/Apr 24 - 13. Become the most a.mp3
+Both files Apr 24 - 13. Become the most a.mp4 & Apr 24 - 13. Become the most a.mp3 preserved
+#FINISHED Fri Apr 24 22:37:30 IST 2020

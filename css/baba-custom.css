@@ -1,0 +1,39 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h5 {
+    margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+label {
+    color: #333;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+	background: #1B8C82;
+	color: #fff;
+}
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+}
+
+.border-class {
+	border: 2px solid #1B8C82;
+	border-radius: 15px;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	padding: 20px;
+}

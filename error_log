@@ -1,0 +1,18 @@
+[25-Apr-2020 10:26:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function listFolder() in /var/www/vhosts/babamurli.com/BABAMURLI/000-Ravi-DontDelete/drop.php:64
+Stack trace:
+#0 {main}
+  thrown in /var/www/vhosts/babamurli.com/BABAMURLI/000-Ravi-DontDelete/drop.php on line 64
+[25-Apr-2020 10:27:16 UTC] PHP Notice:  Array to string conversion in /var/www/vhosts/babamurli.com/BABAMURLI/000-Ravi-DontDelete/drop.php on line 67
+[25-Apr-2020 11:05:09 UTC] PHP Recoverable fatal error:  Object of class Kunnu\Dropbox\Models\FileMetadata could not be converted to string in /var/www/vhosts/babamurli.com/BABAMURLI/000-Ravi-DontDelete/drop.php on line 68
+[25-Apr-2020 11:05:58 UTC] PHP Recoverable fatal error:  Object of class Kunnu\Dropbox\Models\FileMetadata could not be converted to string in /var/www/vhosts/babamurli.com/BABAMURLI/000-Ravi-DontDelete/drop.php on line 68
+[25-Apr-2020 11:07:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getItems() on array in /var/www/vhosts/babamurli.com/BABAMURLI/000-Ravi-DontDelete/drop.php:66
+Stack trace:
+#0 {main}
+  thrown in /var/www/vhosts/babamurli.com/BABAMURLI/000-Ravi-DontDelete/drop.php on line 66
+[25-Apr-2020 11:18:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Kunnu\Dropbox\Models\FileMetadata::all() in /var/www/vhosts/babamurli.com/BABAMURLI/000-Ravi-DontDelete/drop.php:67
+Stack trace:
+#0 {main}
+  thrown in /var/www/vhosts/babamurli.com/BABAMURLI/000-Ravi-DontDelete/drop.php on line 67
+[25-Apr-2020 11:20:25 UTC] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/babamurli.com/BABAMURLI/000-Ravi-DontDelete/drop.php on line 66
+[25-Apr-2020 12:09:38 UTC] PHP Recoverable fatal error:  Object of class Kunnu\Dropbox\Models\FileMetadata could not be converted to string in /var/www/vhosts/babamurli.com/BABAMURLI/000-Ravi-DontDelete/drop.php on line 68
+[25-Apr-2020 12:15:06 UTC] PHP Notice:  Array to string conversion in /var/www/vhosts/babamurli.com/BABAMURLI/000-Ravi-DontDelete/drop.php on line 69
